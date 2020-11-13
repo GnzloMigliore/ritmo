@@ -1,5 +1,6 @@
 .body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 550;
 }
 .menu{
     float:right;
@@ -32,7 +33,16 @@
     margin-left: 2.4rem;
 }
 .boutique{
-    font-size: 1.7rem;
+    font-family: Work Sans;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 32px;
+    /* or 114% */
+    
+   
+    
+    color: #000000;
+    
 }
 .compu{
     margin-left: 2.2rem;
@@ -58,15 +68,56 @@
 .comolohacemos{
     position: relative;
     z-index: 99999;
-    bottom: 28rem;
+    bottom: 25rem;
     left: 4rem;
 }
 .carousel{
     position: relative;
     z-index: 99999;
-    bottom: 28rem;
+    bottom: 25rem;
     
 }
 .direccion{
-    margin-top: 5rem;
+    margin-top: 9rem;
+}
+.dj{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.maxi{
+    color: #3D2DB7 ;
+}
+.tomy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.compu{
+    position: relative;
+    bottom: 130px;
+}
+.ventajas{
+    margin-top: 20rem;
+}
+.requisitos{
+    color: #3D2DB7 ;
+    margin-top: 13rem;
+    font-family: Work Sans;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+}
+.sadaic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+   
+}
+.solicita{
+    margin-top: 4rem;
+    width: 100%;
 }
