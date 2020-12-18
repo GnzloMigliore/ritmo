@@ -1,21 +1,34 @@
+@media only screen and (max-width: 583px){
 .body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 550;
 }
+
 .menu{
     float:right;
 }
+
 .burger{
     font-size: 2.5rem;
+   
+}
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .tituloneuromarketing{
     color: #181245;
     font-weight: 300;
     
 }
-.carousel{
-    height: 30px;
+.tituloneuromarketing1{
+    color: #181245;
+    font-weight: 600;
+    display: flex; 
 }
+
 .top{
     float: left;
 }
@@ -30,7 +43,13 @@
     
 }
 .marcas{
-    margin-left: 2.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.seccionvideo1{
+    display: none;
 }
 .boutique{
     font-family: Work Sans;
@@ -38,14 +57,17 @@
     font-size: 2rem;
     line-height: 32px;
     /* or 114% */
-    
-   
-    
     color: #000000;
     
 }
-.compu{
-    margin-left: 2.2rem;
+.boutiquetext{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.mockup{
+    margin-left: 3rem;
+   
+;
 }
 .redondo{
     margin-left: 8rem ;
@@ -63,22 +85,47 @@
     
 }
 .valor{
-    margin-left: 3rem;
+    margin-left: 4.5rem;
+    width: 110px;
 }
+.valor1{
+    margin-left: 10.5rem;
+    width: 110px;
+}
+.valor:hover{
+    margin-left: 4rem;
+    width: 110px;
+    transition: transform .2s;
+    transform: scale(3);
+}
+.valor1:hover{
+    margin-left: 10rem;
+    width: 110px;
+    transition: transform .2s;
+    transform: scale(1);
+}
+
 .comolohacemos{
     position: relative;
     z-index: 99999;
-    bottom: 25rem;
-    left: 4rem;
+    bottom:30rem;
+    left: 6rem;
+}
+.carrouseldesk{
+    display: none;
+    
 }
 .carousel{
     position: relative;
     z-index: 99999;
-    bottom: 25rem;
-    
+  bottom: 30rem;
+  height: 30px;
+}
+.desk{
+    display: none;
 }
 .direccion{
-    margin-top: 9rem;
+    margin-top: 5rem;
 }
 .dj{
     display: flex;
@@ -95,14 +142,23 @@
 }
 .compu{
     position: relative;
-    bottom: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 65px;
+}
+.bgv{
+    display: none;
 }
 .ventajas{
-    margin-top: 20rem;
+    margin-top: 25rem;
+}
+.ventajas2{
+    display: none;
 }
 .requisitos{
     color: #3D2DB7 ;
-    margin-top: 13rem;
+    margin-top: 10rem;
     font-family: Work Sans;
     font-style: italic;
     font-weight: bold;
@@ -120,4 +176,414 @@
 .solicita{
     margin-top: 4rem;
     width: 100%;
+}
+.solicitalg{
+    display: none;
+}
+.formulariolg{
+ display: none;   
+}
+.formulario{
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+    width: 80%;
+    background-color: white;
+    
+}
+.formulario form{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.button{
+
+    background-color: #181245;
+}
+.logocompleto{
+   margin-left: 8rem;
+}
+
+.seguinos{
+    color: #181245;
+    margin-top: 2rem;
+    font-family: Work Sans;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 30px;
+    margin-left: 2.7rem;
+    
+}
+.redeslg{
+    display: none;
+}
+.redessm ul{
+    
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    
+}
+ul li a i{
+    padding:5px;
+    color: #181245;
+}
+.Copyright{
+    margin-top: 2rem;
+text-align: center;
+font-size: 0.7rem;
+}
+.Copyright1{
+    color: white;
+   
+text-align: center;
+font-size: 0.7rem;
+}  
+}
+@media only screen and (min-width: 584px){
+    .body {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 550;
+    }
+    .menu{
+        float:right;
+    }
+  .nav a:hover{
+    transition: transform .2s;
+    transform: scale(0.9);
+    
+  }
+ 
+    .burger{
+        font-size: 2.5rem;
+        display: none;
+    }
+    .button{
+        font-size: 0.9rem;
+        background-color: #181245;
+        border: none;
+        border-radius: 30px;
+        color: white;
+        box-shadow: 0px 10px 30px rgba(56, 29, 219, 0.2);
+        
+    }
+    .button:hover{
+        transition: transform .2s;
+        transform: scale(1.1);
+    }
+    .button1{
+        font-size: 0.9rem;
+        background-color: white;
+        border: none;
+        border-radius: 30px;
+        color: #181245;
+        box-shadow: 0px 10px 30px rgba(56, 29, 219, 0.2);
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+    .button1:hover{
+        transition: transform .2s;
+        transform: scale(1.1);
+    }
+    .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+    }
+
+    .videoritmo{
+        width: 700px;
+    }
+   .title{
+       margin-top: 7rem;
+   }
+    .tituloneuromarketing{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 550;
+        margin-left: 2rem;
+        color: #181245;
+        
+        
+    }
+    .tituloneuromarketing1{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 550;
+        margin-left: 2rem;
+        color: #181245;
+      
+        
+    }
+   
+   
+    .top{
+        float: left;
+    }
+    .buttom{
+        float: right;
+    }
+    .logowhite{
+        position: relative;
+        z-index: 99999;
+        bottom: 8rem;
+        left: 8.9rem;
+        
+    }
+    .marcas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        display: none;
+       
+    }
+    .seccionvideo{
+        display: none;
+    }
+    .mockup1{
+        margin-top: 5rem;
+    }
+    .boutique{
+        margin-top: 3rem;
+        margin-left: 6rem;
+        font-family: Work Sans;
+        font-weight: 900;
+        font-size: 2rem;
+        line-height: 32px;
+        /* or 114% */
+        
+       
+        
+        color: #000000;
+        
+    }
+    .boutiquetext{ 
+        margin-left: 8rem;    
+    }
+    .mockup{
+        margin-left: 5rem;
+        width: 500px;
+    ;
+    }
+    .redondo{
+        margin-left: 8rem ;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        height: 3rem;
+        padding-top: 0.6rem;
+        color: white;
+        background: #3D2DB7;
+        /* btn / blue / normal */
+        
+        box-shadow: 0px 10px 30px rgba(56, 29, 219, 0.2);
+        border-radius: 3rem;
+        
+    }
+    .valores{
+        margin-left: 15rem;
+    }
+    .valor{
+        margin-left: 1rem;
+        width: 150px;
+    }
+    .valor1{
+        margin-left: 1rem;
+        width: 150px;
+    }
+    .valor:hover{
+      
+        transition: transform .2s;
+        transform: scale(1.1);
+    }
+    .valor1:hover{
+     
+        transition: transform .2s;
+        transform: scale(1.1);
+    }
+  .bg{
+      display: none;
+  }
+  .carrouselmobile{
+    display: none;
+}
+.carrouseldesk{
+    background-image: url("../img/bg.png");
+    width: 100%;
+    background-size:100% ;
+}
+.imgdesk{
+    width: 850px;
+}
+    .comolohacemos{
+        font-size: 2rem;
+        position: relative;
+        z-index: 99999;
+      top: 3rem;
+        left: 33rem;
+    }
+    .direccion{
+        margin-top: 3rem;
+        margin-left: 1.9rem;
+    }
+    .mobile{
+        display: none;
+    }
+    
+    .dj{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+    }
+    .tomyimg{
+        width: 400px;
+        margin-top: 3rem;
+    }
+    .maxi{
+        color: #3D2DB7 ;
+    }
+    .tomy{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .compu{
+        display: none;
+    }
+    .plataforma{
+        display: none;
+    }
+    
+    .ventajas{
+        margin-top: 5rem;
+      
+    }
+    .ventajas1{
+        display: none;
+    }
+    .ventajas2{
+        background-image: url("../img/fondolg.png");
+    }
+   .ventajadesk{
+       size: 600px;
+   }
+   
+    .requisitos{
+        color: #3D2DB7 ;
+        margin-top: 4rem;
+        font-family: Work Sans;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .sadaic{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 5rem;
+       
+    }
+    .formulariosm{
+        display: none;   
+       }
+    .solicita{
+      display: none;
+    }
+    .solicitalg{
+        width: 50%;
+        float: left;
+      }
+    .formulario{
+        float: right;
+        width: 50%;
+        background-color: white;
+        
+    }
+    .formulario label{
+        margin-top: 1rem;
+        width: 80%;
+        margin-left: 4rem;
+    }
+    .formulario input{
+        width: 80%;
+        margin-left: 4rem;
+    }
+    .formulario form{
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .enviar{ 
+        padding: 0.5rem;
+        margin-top: 1rem;
+        width: 10%;
+        margin-left: 4rem;
+        margin-bottom: 4rem;   
+        font-size: 0.9rem;
+        background-color: #181245;
+        border: none;
+        border-radius: 30px;
+        color: white;
+        box-shadow: 0px 10px 30px rgba(56, 29, 219, 0.2);
+    }
+ 
+    .logocompleto{
+        margin-top: 5rem;
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      float: left;
+      width: 50%;
+    }
+    .follow{
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        float: right;
+        width: 50%;
+    }
+    .seguinos{
+       color: #181245;
+        font-family: Work Sans;
+        font-weight: bold;
+        font-size: 1.3rem;
+        line-height: 30px;
+        padding-right: 2rem;
+      
+    }
+
+    .redessm{
+        display: none;
+    }
+    .redeslg ul{ 
+        display: flex;
+        flex-direction: row;
+        font-size: 1.3rem;        
+        list-style: none;
+        
+    }
+    ul li a i{
+        padding:5px;
+        color: #181245;
+        list-style: none;
+    }
+    .Copyright{
+        margin-top: 1rem;
+    text-align: center;
+    font-size: 0.7rem;
+    }  
+    .Copyright1{
+        color: white;
+       
+    text-align: center;
+    font-size: 0.7rem;
+    }  
 }
