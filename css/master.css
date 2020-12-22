@@ -497,11 +497,11 @@ font-size: 0.7rem;
     }
     .solicitalg{
         width: 50%;
-        float: left;
+       
       }
     .formulario{
-        float: right;
-        width: 50%;
+        
+    
         background-color: white;
         
     }
@@ -534,21 +534,20 @@ font-size: 0.7rem;
     }
  
     .logocompleto{
-        margin-top: 5rem;
-       
+        margin-top:5rem;
         display: flex;
         flex-direction: row;
         justify-content: center;
-      float: left;
-      width: 50%;
+    
+    
     }
     .follow{
-        margin-top: 5rem;
+        margin-top:5.5rem;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        float: right;
-        width: 50%;
+      
+       
     }
     .seguinos{
        color: #181245;
@@ -580,10 +579,6 @@ font-size: 0.7rem;
     text-align: center;
     font-size: 0.7rem;
     }  
-    .Copyright1{
-        color: white;
-       
-    text-align: center;
-    font-size: 0.7rem;
-    }  
+    
+     
 }
