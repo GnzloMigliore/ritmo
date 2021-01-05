@@ -22,6 +22,7 @@
     color: #181245;
     font-weight: 300;
     
+    
 }
 .tituloneuromarketing1{
     color: #181245;
@@ -51,24 +52,10 @@
 .seccionvideo1{
     display: none;
 }
-.boutique{
-    font-family: Work Sans;
-    font-weight: 900;
-    font-size: 2rem;
-    line-height: 32px;
-    /* or 114% */
-    color: #000000;
-    
+.boutiqueimg{
+    display: none;
 }
-.boutiquetext{
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-.mockup{
-    margin-left: 3rem;
-   
-;
-}
+
 .redondo{
     margin-left: 8rem ;
     display: flex;
@@ -124,21 +111,11 @@
 .desk{
     display: none;
 }
-.direccion{
+.dircreativa{
+    display: none;
+}
+.dirmobile{
     margin-top: 5rem;
-}
-.dj{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.maxi{
-    color: #3D2DB7 ;
-}
-.tomy{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 .compu{
     position: relative;
@@ -280,8 +257,7 @@ font-size: 0.7rem;
         border-radius: 30px;
         color: #181245;
         box-shadow: 0px 10px 30px rgba(56, 29, 219, 0.2);
-        margin-right: 3rem;
-        margin-left: 3rem;
+    
     }
     .button1:hover{
         transition: transform .2s;
@@ -296,7 +272,7 @@ font-size: 0.7rem;
     }
 
     .videoritmo{
-        width: 700px;
+        height: 500px;
     }
    .title{
        margin-top: 7rem;
@@ -304,18 +280,16 @@ font-size: 0.7rem;
     .tituloneuromarketing{
         font-family: 'Work Sans', sans-serif;
         font-weight: 550;
-        margin-left: 2rem;
         color: #181245;
-        
-        
+        font-size: 2rem;
+        text-align: center; 
     }
     .tituloneuromarketing1{
+        font-size: 2rem;
         font-family: 'Work Sans', sans-serif;
         font-weight: 550;
-        margin-left: 2rem;
         color: #181245;
-      
-        
+        text-align: center;
     }
    
    
@@ -345,27 +319,8 @@ font-size: 0.7rem;
     .mockup1{
         margin-top: 5rem;
     }
-    .boutique{
-        margin-top: 3rem;
-        margin-left: 6rem;
-        font-family: Work Sans;
-        font-weight: 900;
-        font-size: 2rem;
-        line-height: 32px;
-        /* or 114% */
-        
-       
-        
-        color: #000000;
-        
-    }
-    .boutiquetext{ 
-        margin-left: 8rem;    
-    }
-    .mockup{
-        margin-left: 5rem;
-        width: 500px;
-    ;
+    .boutiquemobile{
+        display: none;
     }
     .redondo{
         margin-left: 8rem ;
@@ -424,6 +379,13 @@ font-size: 0.7rem;
       top: 3rem;
         left: 33rem;
     }
+    .dircreativa{
+        width: 100%;
+    }
+    .dirmobile{
+        display: none;
+    }
+    
     .direccion{
         margin-top: 3rem;
         margin-left: 1.9rem;
