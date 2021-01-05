@@ -12,7 +12,9 @@
     font-size: 2.5rem;
    
 }
-
+.neuroimg{
+    display: none;
+}
 .titulos{
     display: flex;
     flex-direction: column;
@@ -272,6 +274,9 @@ font-size: 0.7rem;
     }
    .title{
        margin-top: 7rem;
+   }
+   .neuromobile{
+       display: none;
    }
     .tituloneuromarketing{
         font-family: 'Work Sans', sans-serif;
