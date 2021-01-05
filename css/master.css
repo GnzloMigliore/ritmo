@@ -115,18 +115,12 @@
 .dirmobile{
     margin-top: 5rem;
 }
-.compu{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    bottom: 65px;
-}
-.bgv{
+.platform{
     display: none;
 }
+
 .ventajas{
-    margin-top: 25rem;
+    margin-top: 30rem;
 }
 .ventajas2{
     display: none;
@@ -359,7 +353,7 @@ font-size: 0.7rem;
         transition: transform .2s;
         transform: scale(1.1);
     }
-  .bg{
+  .platformmobile{
       display: none;
   }
   .carrouselmobile{
@@ -402,27 +396,14 @@ font-size: 0.7rem;
         
         
     }
-    .tomyimg{
-        width: 400px;
-        margin-top: 3rem;
-    }
-    .maxi{
-        color: #3D2DB7 ;
-    }
-    .tomy{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .compu{
-        display: none;
-    }
-    .plataforma{
+  
+    
+    .platformmobile{
         display: none;
     }
     
     .ventajas{
-        margin-top: 5rem;
+        margin-top: 3rem;
       
     }
     .ventajas1{
