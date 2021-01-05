@@ -79,12 +79,8 @@
     margin-left: 10.5rem;
     width: 110px;
 }
-.valor:hover{
-    margin-left: 4rem;
-    width: 110px;
-    transition: transform .2s;
-    transform: scale(3);
-}
+
+
 .valor1:hover{
     margin-left: 10rem;
     width: 110px;
