@@ -333,7 +333,9 @@ font-size: 0.7rem;
         
     }
     .valores{
-        margin-left: 15rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
     .valor{
         margin-left: 1rem;
@@ -413,6 +415,7 @@ font-size: 0.7rem;
         background-image: url("../img/fondolg.png");
     }
    .ventajadesk{
+       margin-top: 2rem;
        size: 600px;
    }
    
