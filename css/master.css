@@ -73,6 +73,7 @@
     border-radius: 3rem;
     
 }
+
 .valor{
    
     width: 140px;
@@ -90,10 +91,11 @@
 }
 
 .comolohacemos{
+    text-align: center;
     position: relative;
     z-index: 99999;
     bottom:30rem;
-    left: 6rem;
+
 }
 .carrouseldesk{
     display: none;
