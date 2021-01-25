@@ -166,14 +166,19 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.button{
 
-    background-color: #181245;
-}
 .logocompleto{
    margin-left: 8rem;
 }
-
+.legalesdesk{
+    display: none;
+}
+.legalesmobile{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .seguinos{
     color: #181245;
     margin-top: 2rem;
@@ -230,6 +235,7 @@ font-size: 0.7rem;
         font-size: 2.5rem;
         display: none;
     }
+   
     .button{
         font-size: 0.9rem;
         background-color: #181245;
@@ -237,6 +243,7 @@ font-size: 0.7rem;
         border-radius: 30px;
         color: white;
         box-shadow: 0px 10px 30px rgba(56, 29, 219, 0.2);
+        
         
     }
     .button:hover{
@@ -309,6 +316,10 @@ font-size: 0.7rem;
         display: none;
        
     }
+    .marcasimg{
+        height: 110px;
+      
+    }
     .seccionvideo{
         display: none;
     }
@@ -336,7 +347,13 @@ font-size: 0.7rem;
  .valor{
      width: 200px;
  }
+ .valortext{
+     font-size: 2.5rem;
+     font-weight:500;
+     color: black;
+ }
     .values{
+       
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -364,7 +381,8 @@ font-size: 0.7rem;
 .carrouseldesk{
     background-image: url("../img/bg.png");
     width: 100%;
-    background-size:100% ;
+    background-size:100%;
+    padding-top: 70px;
 }
 
     .comolohacemos{
@@ -372,7 +390,7 @@ font-size: 0.7rem;
         position: relative;
         z-index: 99999;
       top: 3rem;
-        left: 33rem;
+        
     }
     .dircreativa{
         width: 100%;
@@ -427,13 +445,15 @@ font-size: 0.7rem;
         line-height: 30px;
         text-align: center;
     }
-    .sadaic{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 5rem;
-       
-    }
+ 
+   .legalesdesk{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.legalesmobile{
+    display: none;
+}
     .formulariosm{
         display: none;   
        }
@@ -465,12 +485,9 @@ font-size: 0.7rem;
         padding-right: 1rem;
     }
     .enviar{ 
-        padding: 0.5rem;
         margin-top: 1rem;
-        width: 10%;
-        margin-left: 4rem;
-        margin-bottom: 4rem;   
-        font-size: 0.9rem;
+        margin-left: 3.7rem;
+        font-size: 1rem;
         background-color: #181245;
         border: none;
         border-radius: 30px;
