@@ -270,8 +270,10 @@ font-size: 0.7rem;
         
         
     }
-    .logonav{
+ 
+    .logoritmo{
         margin-right: 2rem;
+        width: 90px;
     }
     .videoritmo{
         height: 500px;
