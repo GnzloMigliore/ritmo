@@ -270,7 +270,9 @@ font-size: 0.7rem;
         
         
     }
-
+    .logonav{
+        margin-right: 2rem;
+    }
     .videoritmo{
         height: 500px;
     }
