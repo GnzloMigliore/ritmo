@@ -278,7 +278,7 @@ font-size: 0.7rem;
     }
  
     .logoritmo{
-        margin-right: 2rem;
+    
         width: 90px;
     }
 .seccionvideo{
@@ -288,14 +288,14 @@ font-size: 0.7rem;
     border: 2px black;
     position: absolute;
     z-index: 99999;
-      top: 1210px;
+    top: 121  0px;
     width: 71.4%;
     height: 490px;
-}
-.videoseccion1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    }
+    .videoseccion1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
 }
 }
    
