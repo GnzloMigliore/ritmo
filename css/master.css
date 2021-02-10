@@ -51,8 +51,14 @@
     justify-content: center;
    
 }
-.seccionvideo1{
+.seccion{
     display: none;
+}
+.seccionvideo{
+    display: none;
+}
+.seccionvideo2{
+    display:none;
 }
 .boutiqueimg{
     display: none;
@@ -275,6 +281,20 @@ font-size: 0.7rem;
         margin-right: 2rem;
         width: 90px;
     }
+.seccionvideo{
+    display: none;
+}
+.seccionvideo1{
+    border: 2px black;
+    position: absolute;
+    z-index: 99999;
+    top: 75.6rem;
+    left: 12rem;
+    width: 71.4%;
+    height: 490px;
+}
+}
+   
     .videoritmo{
         height: 500px;
     }
@@ -324,9 +344,7 @@ font-size: 0.7rem;
         height: 110px;
       
     }
-    .seccionvideo{
-        display: none;
-    }
+   
     .mockup1{
         margin-top: 5rem;
     }
