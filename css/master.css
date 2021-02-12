@@ -46,11 +46,12 @@
     left: 8.9rem;
     
 }
-.marcas{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+#marcas{
+    display: none;
    
+}
+.videoloop{
+    display: none;
 }
 .seccionvideo1{
     display: none;
@@ -282,6 +283,20 @@ font-size: 0.7rem;
     .videoritmo{
         height: 500px;
     }
+    .videoloopmobile{
+        display: none;
+    }
+    .videoloop{
+      
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+    }
+    .videoloop video{
+        position: absolute;
+        top: 1353px;
+    }
    .title{
        margin-top: 7rem;
    }
@@ -317,17 +332,12 @@ font-size: 0.7rem;
         left: 8.9rem;
         
     }
-    .marcas{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+    #marcasmobile{
         display: none;
-       
     }
-    .marcasimg{
-        height: 110px;
-      
-    }
+.marcast{
+    height: 290px;
+}
     .seccionvideo{
         display: none;
     }
