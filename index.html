@@ -15,22 +15,19 @@
 </head>
 <body class="body">
   <!--NAVEGADOR mobile-->
-  <nav class="  navbar  pl-4 navbar-expand-lg navbar-light">
-    <a class="navbar-brand logonav " href="#"><img class="logoritmo mr-5" src="img/logo.png" alt="logo ritmo"></a>
+  <nav class="navbar pl-4 navbar-expand-lg navbar-light">
+    <a class="navbar-brand logonav " href="#"><img class="logoritmo " src="img/logo.png" alt="logo ritmo"></a>
     <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class=" collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class=" navbar-nav nav ">
-        <a class="nav-item nav-link active pl-5 pt-3 " href="#marcas">Nuestros clientes</a>
-        <a class="nav-item nav-link active pl-5 pt-3" href="#comofunciona">Cómo funciona</a>
-        <a class="nav-item nav-link active pl-5 pt-3" href="#comolohacemos">¿Cómo lo hacemos?</a>
-        <a class="nav-item nav-link active pl-5 pt-3" href="#creativos">Creativos</a>
-        <a class="nav-item nav-link active pl-5 pt-3 pr-3" href="#plataforma">Plataforma</a>
+    <div class=" collapse navbar-collapse " id="navbarNavAltMarkup">
+      <div class=" navbar-nav nav navbar">
+        <a class="nav-item nav-link active " href="#marcas">Nuestros clientes</a>
+        <a class="nav-item nav-link active" href="#comofunciona">Cómo funciona</a>
+        <a class="nav-item nav-link active" href="#comolohacemos">¿Cómo lo hacemos?</a>
+        <a class="nav-item nav-link active" href="#creativos">Creativos</a>
+        <a class="nav-item nav-link active pr-3" href="#plataforma">Plataforma</a>
         <button class="button ml-5">Solicitar demo</button>
-        
-
-        
       </div>
     </div>
    
@@ -59,39 +56,48 @@
   </div>
 </section>
 <section id="marcas" >
-  <div uk-slideshow="autoplay: true">
 
-    <div class="uk-position-relative uk-visible-toggle uk-light marcast" tabindex="-1">
+<div class="uk-position-small uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:2">
 
-        <ul class="uk-slideshow-items ">
-            <li >
-                <img class="w-100" src="img/marcasone.png" alt="">
-            </li>
-            <li>
-                <img class="w-100" src="img/marcastwo.png" alt="" >
-            </li>
-            <li>
-                <img class="w-100" src="img/marcasthree.png" alt="" >
-            </li>
-        </ul>
-    </div>
+  <ul class="uk-slideshow-items">
+      <li>
+          <img src="img/marcasone.png" alt="" >
+      </li>
+      <li>
+          <img src="img/marcastwo.png" alt="" >
+      </li>
+      <li>
+          <img src="img/marcasthree.png" alt="" >
+      </li>
+  </ul>
+
+
+
 </div>
- 
+
 </section>
 
 </section>  
-<img  class="w-100  seccionvideo" src="img/video.png" alt="">
-
-<div class="videoloop" >
-  <video  controls loop>  
+<section>
+  <img  class="w-100  seccionvideo" src="img/video.png" alt="">
+  <video class="videoloopmobile" controls loop>  
     <source src="img/RITMO WEB VIDEO - CORTO (1) (1).mp4"  type="video/mp4">  
   </video>
+</section>
+<div class="videoloop mt-5" >
+  <video  controls loop>  
+    <source  src="img/RITMO WEB VIDEO - CORTO (1) (1).mp4"  type="video/mp4">  
+  </video>
 </div>
+<section class="seccionvideodesk">
+ 
+  <img class="w-100   seccionvideo1" src="img/seccionvideo.png" alt="">
+</section>
 
-<video class="videoloopmobile" controls loop>  
-	<source src="img/RITMO WEB VIDEO - CORTO (1) (1).mp4"  type="video/mp4">  
-</video>
-<img class="w-100   seccionvideo1" src="img/seccionvideo.png" alt="">
+
+
+
+
 </section>
 <section>
   <img class="boutiqueimg" src="img/boutique.png" alt="">
@@ -354,8 +360,7 @@
     <div class="logocompleto col-6">
       <img class="imgcompleto" src="img/ritmocompleto.png" alt="">
    </div>
-  <div class="follow col-5">
-    
+  <div class="follow col-5"> 
     <ul>
       <li><a href="https://facebook.com"><h3 class="seguinos">Seguinos!</h3></li>
       <li><a href="https://facebook.com"><i class="fab fa-facebook-square"></i></a></li>
@@ -383,8 +388,6 @@
 <h6 class="Copyright">Ritmo Copyright ©2020 | Design by: DesignRules</h6>
 <h6 class="Copyright">Politicas de privavidad    |    Termino & Condiciones</h6>
 </section>
-
-
       <script  src = "https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>

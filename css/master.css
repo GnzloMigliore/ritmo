@@ -11,8 +11,9 @@
 .burger{
     font-size: 2.5rem;
    
+}.button{
+    display: none;
 }
-
 .neuroimg{
     display: none;
 }
@@ -224,16 +225,18 @@ font-size: 0.7rem;
         font-family: 'Work Sans', sans-serif;
         font-weight: 550;
     }
-    .menu{
-        float:right;
-    }
+ 
   .nav a:hover{
     transition: transform .2s;
     transform: scale(0.9);
     
   }
-  .navbar{
-    margin-left: 40px;
+.navbar{
+    width: 100%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
 }
  
     .burger{
@@ -275,9 +278,12 @@ font-size: 0.7rem;
         
         
     }
- 
+ .marcas{
+    height: 208px;
+    z-index: 99999;
+ }
     .logoritmo{
-        margin-right: 2rem;
+        
         width: 90px;
     }
     .videoritmo{
@@ -295,13 +301,24 @@ font-size: 0.7rem;
     }
     .videoloop video{
         position: absolute;
-        top: 1353px;
+        width: 927px;
+        height: 476px;
+        left: 176px;
+        top: 1285px;
+        
+    }
+    .seccionvideodesk{
+        
+        height: 916px;
     }
    .title{
        margin-top: 7rem;
    }
    .neuromobile{
        display: none;
+   }
+   .neuroimg{
+    height: 592px;
    }
     .tituloneuromarketing{
         font-family: 'Work Sans', sans-serif;
@@ -335,8 +352,12 @@ font-size: 0.7rem;
     #marcasmobile{
         display: none;
     }
-.marcast{
-    height: 290px;
+#marcas{
+    height: 208px;
+    z-index: 999999;
+}
+.slider{
+   height: 208px ;
 }
     .seccionvideo{
         display: none;
