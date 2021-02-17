@@ -243,12 +243,23 @@ font-size: 0.7rem;
         font-size: 2.5rem;
         display: none;
     }
-   
+   .button2{
+    display: flex;
+    position: relative;
+      bottom: 90px;
+      left: 300px;
+     font-size: 1.1rem;
+     background-color: #181245;
+     padding: 0.5rem;
+     border-radius: 50px;
+     color: white;
+     box-shadow: 0px 10px 30px rgba(56, 29, 219, 0.2);
+   }
     .button{
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         background-color: #181245;
-        border: none;
-        border-radius: 30px;
+        padding: 0.5rem;
+        border-radius: 50px;
         color: white;
         box-shadow: 0px 10px 30px rgba(56, 29, 219, 0.2);
         
