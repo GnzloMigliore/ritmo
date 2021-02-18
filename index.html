@@ -21,13 +21,21 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class=" collapse navbar-collapse " id="navbarNavAltMarkup">
-      <div class=" navbar-nav nav navbar ">
+      <div class=" navbar-nav nav navbars ">
         <a class="nav-item nav-link active pr-4 pl-4" href="#marcas">Nuestros clientes</a>
         <a class="nav-item nav-link active pr-4 pl-4" href="#comofunciona">Cómo funciona</a>
         <a class="nav-item nav-link active pr-4 pl-4" href="#comolohacemos">¿Cómo lo hacemos?</a>
         <a class="nav-item nav-link active pr-4 pl-4" href="#creativos">Creativos</a>
         <a class="nav-item nav-link active pr-4 pl-4" href="#plataforma">Plataforma</a>
-        <button class="button ml-5">Solicitar demo</button>
+        <a href="#contacto"><button class="button ml-5">Solicitar demo</button></a>
+      </div>
+      <div class=" navbar-nav nav navbarmobile ">
+        <a class="nav-item nav-link active pr-4 pl-4" href="#marcasmobile">Nuestros clientes</a>
+        <a class="nav-item nav-link active pr-4 pl-4" href="#comofunciona">Cómo funciona</a>
+        <a class="nav-item nav-link active pr-4 pl-4" href="#comolohacemoss">¿Cómo lo hacemos?</a>
+        <a class="nav-item nav-link active pr-4 pl-4" href="#creativos">Creativos</a>
+        <a class="nav-item nav-link active pr-4 pl-4" href="#plataforma">Plataforma</a>
+        <a href="#contacto"><button class="button ml-5">Solicitar demo</button></a>
       </div>
     </div>
    
@@ -80,7 +88,7 @@
 </section>  
 <section>
   <img  class="w-100  seccionvideo" src="img/video.png" alt="">
-  <video class="videoloopmobile" loop autoplay mute>  
+  <video class="videoloopmobile" loop autoplay muted>  
     <source src="img/RITMO WEB VIDEO - CORTO (1) (1).mp4"  type="video/mp4">  
   </video>
 </section>
@@ -99,9 +107,11 @@
 
 
 </section>
-<section class=" mt-5">
-  <img class="boutiqueimg" src="img/boutique.png" alt="">
-  <button class="button2">Solicitar demo</button>
+<section id="comofunciona" class=" mt-5">
+  <img  class="boutiqueimg" src="img/boutique.png" alt="">
+  <div class="demo">
+   <a href="#contacto"> <button  class="button2">Solicitar demo</button></a>
+  </div>
 </section>
 <section>
   <img class="boutiquemobile" src="img/boutiquemobile.png" alt="">
@@ -124,7 +134,7 @@
   
   </section>
   
- <section id="comolohacemos mt-5" class="carrouseldesk ">
+ <section id="comolohacemos" class="carrouseldesk  mt-5">
  
   <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true ">
 
@@ -161,12 +171,12 @@
 
 </div>
  </section>
-<section class="carrouselmobile">
+<section  id="comolohacemoss" class="carrouselmobile" >
   <div class="bg">
     <img class="mt-4 w-100 bg" src="img/Rectangle1.png" alt="">
   </div>
 
-  <h3 class="comolohacemos">¿Cómo lo hacemos?</h3>
+  <h3  class="comolohacemos">¿Cómo lo hacemos?</h3>
   <div id="carouselExampleIndicators carrousel1" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -331,7 +341,7 @@
     <img src="img/solicitalg.png" alt="">
   </div>
  <div class="col-5 pr-0 pl-0 ml-5">
-  <form  class="formulario ml-5">
+  <form  id="contacto" class="formulario ml-5">
     <div class="form-group mt-3">
       <label for="exampleInputname1">Nombre y apellido</label>
       <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="ingresá tu nombre y apellido" required>
