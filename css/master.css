@@ -187,7 +187,16 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
+.enviar{ 
+    margin-top: 1rem;
+    
+    font-size: 1rem;
+    background-color: #181245;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 0px 10px 30px rgba(56, 29, 219, 0.2);
+}
 .logocompleto{
    margin-left: 8rem;
 }
